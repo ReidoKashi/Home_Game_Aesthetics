@@ -1,9 +1,9 @@
-//tackle this one if you're comfortable with the others.
+ 
 
 //this is a modified code to bryan ma's examples 
 
 
-// 2d array called colums and rows
+
 
 final int COLS = 50;
 final int ROWS = 50;
@@ -40,14 +40,14 @@ boolean[][] doSimulationStep() { //++2  _2dAf basically th
   for (int x = 0; x < cellmap.length; x++) {///
     for (int y = 0; y < cellmap[0].length; y++) {
       int nbs = countAliveNeighbors(cellmap, x, y); // _method returning int ______why retu
-      //if a cell is alive but has too few neighbors, kill it
-      if (cellmap[x][y]) { //if alive
+ 
+       if (cellmap[x][y]) { 
         if (nbs < deathLimit) { //++1 ratio actualized by putting it into action
           newMap[x][y] = false;
         } else {
           newMap[x][y] = true;
         }
-        //otherwise if cell is dead, check if it has the right number of neighbors to be born
+        
       } else {
         if (nbs > birthLimit) {//++2 ratio actualized by putting it into action
           newMap[x][y] = true;

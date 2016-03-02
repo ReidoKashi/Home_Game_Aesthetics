@@ -14,7 +14,7 @@ class Player {
   }
 
   void form() {
-    rect(pos.x,pos.y, wi, he);
+    rect(pos.x,pos.y, 20, 20);
     fill(200,77,45,22);
   }
 void input(){

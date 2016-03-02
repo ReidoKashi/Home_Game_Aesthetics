@@ -9,6 +9,7 @@ class Walker {
   int x;
   int y;
   boolean canWalk = false;
+  int maxTurns = 200;
 
 Walker()
 {
@@ -19,23 +20,27 @@ Walker()
 
   void display() {
     stroke(0);
-    point(x,y);
+    fill(0);
+    rect(x,y,10,10);
+    //point(x,y);
     
   } 
 
 
   void step() {
+    if(int i = 0,i > maxTurns,i++){
     int choice = int(random(4)); 
     if (choice == 0) {
-      x++;
+      x+=2;
     } else if (choice == 1)
     {
-      x--;
+      x-=2;
     } else if (choice == 2)
     {
-      y++;
+      y+=2;
     } else {
-      y--;
+      y-=2;
     }
+     }
   }
 }

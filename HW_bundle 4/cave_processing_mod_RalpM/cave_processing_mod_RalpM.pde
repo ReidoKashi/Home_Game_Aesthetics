@@ -1,12 +1,11 @@
-//try fixing this code to ensure we never get an array index out of bounds exception
 
 char[][] map;
 int SIZE = 50;
 int cellSize = 13;
 
-int cLength = SIZE-2;     //how long the cave should be (in tiles)
-int cRoughness = 90;  //how much the cave varies in width
-int cWindyness = 60;  //how much the cave varies in positioning
+int cLength = SIZE-2;     
+int cRoughness = 90;  
+int cWindyness = 60;  
 
 int x, y;
 int stepWidth;
@@ -28,7 +27,7 @@ void setup() {
 
   x = 25; // when x is at 50 or above sketch is broken
   y = SIZE-1;
-  map[x][y] = '_';
+  map[x][y] = '_'; //this intially renders the field
 
  
 }
@@ -38,7 +37,7 @@ void draw() {
   step();
   for (int i = 0; i < SIZE; i++) {
     for (int j = 0; j < SIZE; j++) {
-      text(map[j][i], j*cellSize, i*cellSize);
+      text(map[j][i], j*cellSize, i*cellSize); //engine for rendering sketch/partially
     }
   }
   if (step == cLength && totalRuns < 2) {
@@ -87,13 +86,11 @@ void step() {
 }
 
 
-//one thing we haven't been doing is allowing for multiple regenerations.
-//we're doing this by resetting some stuff in a function that we'll call on keyReleased.
-//ordinarily we'd want to generate everything in a while loop, but since we're doing it sequentially here this works too.
+
 void reset() {
   for (int i = 0; i < SIZE; i++) {
     for (int j = 0; j < SIZE; j++) {
-      map[j][i] = '#';//resets the field_ to these pa
+      map[j][i] = '#';//resets the rendered field
     }
   }
 
@@ -111,5 +108,5 @@ void reset() {
 }
 
 void keyReleased() {
-  reset();
+  reset(); // button pressed resets the field +gridergo
 }

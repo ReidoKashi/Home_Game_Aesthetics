@@ -1,0 +1,86 @@
+﻿{"frames": [
+
+{
+   "filename": "s_s_r.png",
+   "frame": {"x":0, "y":0,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {"x":0,"y":0,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "sourceSize": {"w":0.23611111111111 in,"h":0.19444444444444 in}
+}
+,{
+   "filename": "s_s_l.png",
+   "frame": {"x":0.23611111111111, "y":0,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {"x":0,"y":0,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "sourceSize": {"w":0.23611111111111 in,"h":0.19444444444444 in}
+}
+,{
+   "filename": "s_s_r.png copy",
+   "frame": {"x":0.47222222222222, "y":0,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {"x":0,"y":0,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "sourceSize": {"w":0.23611111111111 in,"h":0.19444444444444 in}
+}
+,{
+   "filename": "s_s_l.png copy",
+   "frame": {"x":0, "y":0.19444444444444,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {"x":0,"y":0,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "sourceSize": {"w":0.23611111111111 in,"h":0.19444444444444 in}
+}
+,{
+   "filename": "s_f_r.png",
+   "frame": {"x":0.23611111111111, "y":0.19444444444444,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {"x":0,"y":0,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "sourceSize": {"w":0.23611111111111 in,"h":0.19444444444444 in}
+}
+,{
+   "filename": "s_f_l.png",
+   "frame": {"x":0.47222222222222, "y":0.19444444444444,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {"x":0,"y":0,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "sourceSize": {"w":0.23611111111111 in,"h":0.19444444444444 in}
+}
+,{
+   "filename": "s_f_l.jpg",
+   "frame": {"x":0, "y":0.38888888888888,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {"x":0,"y":0,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "sourceSize": {"w":0.23611111111111 in,"h":0.19444444444444 in}
+}
+,{
+   "filename": "s_b_r.png",
+   "frame": {"x":0.23611111111111, "y":0.38888888888888,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {"x":0,"y":0,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "sourceSize": {"w":0.23611111111111 in,"h":0.19444444444444 in}
+}
+,{
+   "filename": "s_b_l.png",
+   "frame": {"x":0.47222222222222, "y":0.38888888888888,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {"x":0,"y":0,"w":0.23611111111111 in, "h":0.19444444444444 in},
+   "sourceSize": {"w":0.23611111111111 in,"h":0.19444444444444 in}
+}
+],
+"meta": {
+   "app": "Adobe Flash Professional",
+   "version": "14.0",
+   "Target": "Edge Animate",
+   "Target Version": "4.0",
+   "image": "_sprite_sheet.png",
+   "format": "RGBA8888",
+   "size": {"w":51 ,"h":42 },
+   "scale": "1"
+}
+}

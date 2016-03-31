@@ -108,7 +108,7 @@ void drawWorld() { //basically this method draws the illustration to the board e
        fill(355,100,53);
       }
       stroke(355,100,53);
-      ellipse(x * cellSize, y * cellSize, (x * cellSize) + cellSize, (y * cellSize) + cellSize); //1d gridergo algorythm
+      rect(x * cellSize, y * cellSize, (x * cellSize) + cellSize, (y * cellSize) + cellSize); //1d gridergo algorythm
     }
   }
 }

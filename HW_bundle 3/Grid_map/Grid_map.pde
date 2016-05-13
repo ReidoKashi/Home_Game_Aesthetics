@@ -9,7 +9,7 @@ boolean[][] map = new boolean[width][height];
     w = new Walker();
     p = new Player( width / 2,height / 2,2,2);
     background(255);
-    map[width][height]
+    map[width][height];
   }
 
 

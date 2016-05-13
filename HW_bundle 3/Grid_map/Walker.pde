@@ -1,5 +1,7 @@
 // This is the walker class
-class Walker {
+
+class Walker 
+{
   //psuedo code for walls - 
   //Create Hitbox for Player that mirrors size of player
   //Then withinthe path that the walker creates, set
@@ -12,35 +14,40 @@ class Walker {
   int maxTurns = 200;
 
 Walker()
-{
+  {
   x = width / 2;
   y = height / 2;
-}
+  }
 
 
-  void display() {
+  void display() 
+   {
     stroke(0);
     fill(0);
     rect(x,y,10,10);
     //point(x,y);
     
-  } 
+   } 
 
 
-  void step() {
-    if(int i = 0,i > maxTurns,i++){
+  void step() 
+  {
+    if(int i = 0,i > maxTurns,i++)
+     {
     int choice = int(random(4)); 
-    if (choice == 0) {
+    if (choice == 0) 
+      {
       x+=2;
-    } else if (choice == 1)
-    {
+      } else if (choice == 1)
+      {
       x-=2;
-    } else if (choice == 2)
-    {
+      } else if (choice == 2)
+      {
       y+=2;
-    } else {
+      } else 
+      {
       y-=2;
+      }
     }
-     }
   }
 }
